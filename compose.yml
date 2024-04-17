@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+
+
+
+  demo:
+    container_name: demo
+    image: demo
+    ports:
+      - "8761:8761"
+    restart: on-failure
+   
+
